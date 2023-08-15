@@ -1,0 +1,54 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+    align-items: center;
+    box-sizing: border-box;
+ 
+ }
+ .mainContainer{
+    background-color: hsl(216,50%,16%);
+    color: hsl(0, 0%, 100%);
+    font-size:18px ;
+    width: 25%;
+    min-width: 25%;
+    height: 100vh;
+    border-radius: 15px;
+    word-wrap: break-word;;
+   margin:0px auto;
+   padding: 20px;
+ 
+ 
+ }
+ .textStyle {
+    color: cyan
+ }
+ #mainImage,  .data, .text{
+    width: 90%;
+    margin: 10px;
+    border-radius: 10px;
+ 
+ 
+ }
+ .text {
+    margin-bottom: 50px;
+    word-spacing: 0.1cm;
+ }
+ 
+ .data {
+    display: flex;
+    justify-content:space-evenly;
+   
+    
+ }
+ .justify {
+    align-self: flex-end;
+ 
+ }
+ .profile {
+    margin-top: 50px;
+    height: 50px;
+    border-top:2px solid gray;
+ }
+ .size {
+    margin-top: 30px;
+    width: 60px
+ }
